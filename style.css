@@ -1,0 +1,132 @@
+:root {
+    --bg-navy: #191F28;
+    --orange: #C69F68;
+    --navy: #4B5975;
+    --green: #14B8A6;
+    --white: #fff;
+    --nav-padding: 15px;
+    --padding: 50px;
+    --margin: 50px;
+  }
+   
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
+    font-family: 'Poppins';font-size: 22px;
+}
+
+nav{
+    background-color: #4B5975;
+    padding: var(--nav-padding);
+    display: flex;
+    justify-content: center;
+    gap:40px;
+}
+
+nav a   {
+    text-decoration: inherit;
+    content: center;
+    color: var(--white);
+}
+
+main{
+    
+    /* align-items: center; */
+    margin: var(--margin);
+    gap: var(--margin);
+    text-align: justify;
+    
+}
+
+#content{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+aside img{
+    width: 500px;
+    border-radius: 10px;
+    margin-top: var(--padding);
+}
+
+.project {
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    
+}
+
+.project h2{
+    
+    padding: 0;
+    color: var(--green);
+}
+
+.tagline{
+    max-width: 70%;
+    text-align: center;
+}
+.project-card{
+    background-color: var(--bg-navy);
+    margin-top: 50px;
+    border-radius: 20px;
+    max-width: 380px;
+    
+}
+
+.project-card p{
+    font-size: medium   ;
+}
+
+.project-containercard{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29px;
+    
+}
+
+.project-card img{  
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.project-card h3{
+    color: var(--white)
+}
+
+.project-card p{
+   color: var(--navy);
+}
+
+.project-card button{
+    background-color: var(--green);
+    color: var(--white);
+    border-radius: 10px;
+    font-weight: bold;
+    width: 130px;
+    height: 40px;
+    margin-bottom: 10px;
+    
+}
+
+footer {
+    text-align: center;
+    padding: var(--margin);
+    color: var(--white);
+    background-color: var(--bg-navy);
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: var(--margin);
+   
+}
+
+li{
+    list-style-type: none;
+}
